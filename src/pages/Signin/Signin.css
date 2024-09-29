@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  input {
+    margin: 5px 0px;
+    padding: 15px;
+    font-size: 17px;
+  }
+  button {
+    padding: 15px;
+    font-size: 17px;
+  }
+  .hide-show-btn {
+    cursor: pointer;
+  }
+  .price {
+    display: flex;
+    margin: 15px 0px;
+  }
+  .number {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+  }
+}
